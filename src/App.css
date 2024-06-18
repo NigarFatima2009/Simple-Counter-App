@@ -1,0 +1,83 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  box-shadow: 1px 1px 10px 0px red;
+
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  margin-bottom: 20px;
+  background-color: #eee;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+.controls {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.button {
+  font-size: 1.5em;
+  width: 60px;  /* Ensuring the buttons are circular */
+  height: 60px; /* Ensuring the buttons are circular */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus {
+  background-color: green;
+  color: white;
+}
+
+.minus {
+  background-color: yellow;
+  color: black;
+}
+
+.reset {
+  background-color: blue;
+  color: white;
+}
+
+.led {
+  background-color: red;
+  color: white;
+}
+
+.display.light-up {
+  color: red;
+}
